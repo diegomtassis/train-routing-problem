@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.dmt.train.routing</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../</relativePath>
+		<artifactId>parent</artifactId>
+	</parent>
+
+	<artifactId>service</artifactId>
+	<name>Train Routing :: Service</name>
+	<packaging>jar</packaging>
+
+	<dependencies>
+		<!-- inhouse -->
+		<dependency>
+			<groupId>com.dmt.train.routing</groupId>
+			<artifactId>application-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.dmt.train.routing</groupId>
+			<artifactId>domain-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.dmt.train.routing</groupId>
+			<artifactId>utils</artifactId>
+		</dependency>
+
+		<!-- 3rd party -->
+		<dependency>
+			<groupId>javax.inject</groupId>
+			<artifactId>javax.inject</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
+
+		<!-- test -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.easymock</groupId>
+			<artifactId>easymock</artifactId>
+		</dependency>
+	</dependencies>
+
+</project>

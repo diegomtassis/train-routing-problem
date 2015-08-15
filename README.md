@@ -35,34 +35,36 @@ Build services in order to:
 Given the following train network:
 AB5, BC4, CD8, DC8, DE6, AD5, CE2, EB3, AE7, FH10, FG3, GH4, XZ50, XY30, YZ20
 
-#### The distance of the route ABC
+Provide the right output for the following scenarios:
+
+##### The distance of the route ABC
 Expected output: 9
 
-#### The distance of the route AD
+##### The distance of the route AD
 Expected output: 5
 
-#### The distance of the route ADC
+##### The distance of the route ADC
 Expected output: 13
 
-#### The distance of the route AEBCD
+##### The distance of the route AEBCD
 Expected output: 22
 
-#### The distance of the route AED
+##### The distance of the route AED
 Expected output: NO SUCH ROUTE
 
-#### The number of trips starting at C and ending at C with a maximum of 3 stops
+##### The number of trips starting at C and ending at C with a maximum of 3 stops
 Expected output: CDC (2 stops), CEBC (3 stops)
 
-#### The number of trips starting at A and ending at C with exactly 4 stops.
+##### The number of trips starting at A and ending at C with exactly 4 stops.
 Expected output: ABCDC, ADCDC, ADEBC
 
-#### The length of the shortest route (in terms of distance to travel) from A to C.
+##### The length of the shortest route (in terms of distance to travel) from A to C.
 Expected output: 9
 
-#### The length of the shortest route (in terms of distance to travel) from B to B.
+##### The length of the shortest route (in terms of distance to travel) from B to B.
 Expected output: 9
 
-#### The number of different routes from C to C with a distance of less than 30.
+##### The number of different routes from C to C with a distance of less than 30.
 Expected output: CDC, CEBC, CEBCDC, CDCEBC, CDEBC, CEBCEBC, CEBCEBCEBC
 
 

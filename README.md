@@ -1,12 +1,12 @@
+[Diego Martín Tassis](https://twitter.com/diegomtassis) - August 2015
+
 ## Getting Started
 
-Diego Martín Tassis
+Sample application that built in order to practice a little bit of TDD.
 
-August 2015
-
-Sample application that I've built in order to practice a little bit of TDD.
 It might be seen as a **Code Kata**.
-The idea was to use as less 3rd part libraries as possible.
+
+The idea was to use as less 3rd party libraries as possible.
 
 ## Problem Description
 

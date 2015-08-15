@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Sample application that built in order to practice a little bit of TDD.
+Sample application built in order to practice a little bit of TDD.
 
 It might be seen as a **Code Kata**.
 
